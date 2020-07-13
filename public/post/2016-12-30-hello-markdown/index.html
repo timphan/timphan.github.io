@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+  <title>A plain markdown post | Newsroom</title>
+  <meta charset='utf-8'>
+  <meta name = 'viewport' content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+  <meta http-equiv = 'X-UA-Compatible' content = 'IE=edge'>
+<meta name = 'keywords' content = 'Newsroom'>
+<meta property = 'og:locale' content = 'en_US' />
+<meta property = 'og:type' content = 'article' />
+<meta property = 'og:title' content = 'A Plain Markdown Post' />
+<meta property = 'og:description' content = 'This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
+ You cannot run any R code in a plain …'>
+<meta property = 'og:url' content = '/post/2016-12-30-hello-markdown/' />
+<meta property = 'og:image' content = 'images/%!s()'/>
+<link rel='apple-touch-icon' sizes='180x180' href='/images/icons/apple-touch-icon.png'>
+<link rel='icon' type='image/png' sizes='32x32' href='/images/icons/favicon-32x32.png'>
+<link rel='icon' type='image/png' sizes='16x16' href='/images/icons/favicon-16x16.png'>
+<link rel='manifest' href='/images/icons/site.webmanifest'>
+<meta name='msapplication-TileColor' content='#da532c'>
+<meta name='theme-color' content='#ffffff'>
+
+  <link rel='canonical' href='/post/2016-12-30-hello-markdown/'>
+  <link rel = 'stylesheet' href = '/css/main.b4897440d17bee912ebd93c190eb1d35fdf25021d74d55b1f475bcfab894143f3b4c235498c36d9ad45f6cca72bb7173361fa65b607c89c72d57e9592f544aff.css' integrity = 'sha512-tIl0QNF77pEuvZPBkOsdNf3yUCHXTVWx9HW8&#43;riUFD87TCNUmMNtmtRfbMpyu3FzNh&#43;mW2B8icctV&#43;lZL1RK/w=='>
+</head>
+
+  <body>
+    <div class = 'nav-drop'>
+  <div class = 'nav-body'>
+      <a href = '/about/' class = 'nav_item'>About</a>
+      <a href = '/' class = 'nav_item'>Blog</a>
+      <a href = '/categories' class = 'nav_item'>Category</a>
+      <a href = '/tags' class = 'nav_item'>Tag</a>
+    <div class = 'nav-close'></div><div class = 'color_mode'>
+<label for = 'mode'>Toggle Dark Mode</label>
+<input type = 'checkbox' class = 'color_choice' id = 'mode'>
+</div>
+
+  </div>
+</div><header class = 'nav' >
+  <nav class = 'nav-menu'>
+    <a href='/' class = 'nav-brand nav_item'>Newsroom</a>
+    <div class = 'nav_bar-wrap'>
+      <div class = 'nav_bar'></div>
+    </div>
+  </nav>
+</header>
+
+
+    <main>
+      
+  <div class = 'wrap mt post'>
+    <div><p class = 'post_date pale'>30. December 2016</p>
+      <h1 class = 'post_title'>A Plain Markdown Post</h1>
+      <div class = 'post_body'>
+        <div class = 'post_inner'>
+        
+          <p>This is a post written in plain Markdown (<code>*.md</code>) instead of R Markdown (<code>*.Rmd</code>). The major differences are:</p>
+<ol>
+<li>You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (<code>```{r}</code>);</li>
+<li>A plain Markdown post is rendered through <a href="https://gohugo.io/overview/configuration/">Blackfriday</a>, and an R Markdown document is compiled by <a href="http://rmarkdown.rstudio.com"><strong>rmarkdown</strong></a> and <a href="http://pandoc.org">Pandoc</a>.</li>
+</ol>
+<p>There are many differences in syntax between Blackfriday&rsquo;s Markdown and Pandoc&rsquo;s Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Write an R package.</li>
+<li><input disabled="" type="checkbox"> Write a book.</li>
+<li><input disabled="" type="checkbox"> &hellip;</li>
+<li><input disabled="" type="checkbox"> Profit!</li>
+</ul>
+<p>Similarly, Blackfriday does not support LaTeX math and Pandoc does. I have added the MathJax support to this theme (<a href="https://github.com/yihui/hugo-lithium">hugo-lithium</a>) but there is a caveat for plain Markdown posts: you have to include math expressions in a pair of backticks (inline: <code>`$ $`</code>; display style: <code>`$$ $$`</code>), e.g., <code>$S_n = \sum_{i=1}^n X_i$</code>.^[This is because we have to protect the math expressions from being interpreted as Markdown. You may not need the backticks if your math expression does not contain any special Markdown syntax such as underscores or asterisks, but it is always a safer choice to use backticks. When you happen to have a pair of literal dollar signs inside the same element, you can escape one dollar sign, e.g., <code>\$50 and $100</code> renders &ldquo;$50 and $100&rdquo;.] For R Markdown posts, you do not need the backticks, because Pandoc can identify and process math expressions.</p>
+<p>When creating a new post, you have to decide whether the post format is Markdown or R Markdown, and this can be done via the <code>ext</code> argument of the function <code>blogdown::new_post()</code>, e.g.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-r" data-lang="r"><span class="n">blogdown</span><span class="o">::</span><span class="nf">new_post</span><span class="p">(</span><span class="s">&#34;Post Title&#34;</span><span class="p">,</span> <span class="n">ext</span> <span class="o">=</span> <span class="s">&#39;.Rmd&#39;</span><span class="p">)</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+        </div>
+        <div class ='post_extra mb-2'>
+          <div class = 'copy'></div>
+
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href = '/' class = 'post_nav'><span class = 'post_next'>The Latest</span>T</a>
+
+    </main>
+    <footer class = 'footer wrap pale'>
+  <p>&copy;&nbsp;<span class = 'year'></span>&nbsp;Newsroom</p>
+  <p>Designed by  <a href = 'https://www.linkedin.com/in/dan-weru-profile/' target = '_blank' title = 'Linkedin Profile' rel = 'nonopener'>Weru</a></p>
+</footer>
+
+
+<script src = '/js/index.min.9983e6753137768ecae596265fcd403cd8b304149b85bd242f0c9fd0654d72d38b60e2eb7fcbca97acbe5450b597c9426a7a80c9e2c97498c90172f53e89625a.js'></script>
+
+  </body>
+</html>

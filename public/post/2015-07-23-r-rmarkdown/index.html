@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+  <title>Hello r markdown | Newsroom</title>
+  <meta charset='utf-8'>
+  <meta name = 'viewport' content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+  <meta http-equiv = 'X-UA-Compatible' content = 'IE=edge'>
+<meta name = 'keywords' content = 'Newsroom'>
+<meta property = 'og:locale' content = 'en_US' />
+<meta property = 'og:type' content = 'article' />
+<meta property = 'og:title' content = 'Hello R Markdown' />
+<meta property = 'og:description' content = 'R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on …'>
+<meta property = 'og:url' content = '/post/2015-07-23-r-rmarkdown/' />
+<meta property = 'og:image' content = 'images/%!s()'/>
+<link rel='apple-touch-icon' sizes='180x180' href='/images/icons/apple-touch-icon.png'>
+<link rel='icon' type='image/png' sizes='32x32' href='/images/icons/favicon-32x32.png'>
+<link rel='icon' type='image/png' sizes='16x16' href='/images/icons/favicon-16x16.png'>
+<link rel='manifest' href='/images/icons/site.webmanifest'>
+<meta name='msapplication-TileColor' content='#da532c'>
+<meta name='theme-color' content='#ffffff'>
+
+  <link rel='canonical' href='/post/2015-07-23-r-rmarkdown/'>
+  <link rel = 'stylesheet' href = '/css/main.b4897440d17bee912ebd93c190eb1d35fdf25021d74d55b1f475bcfab894143f3b4c235498c36d9ad45f6cca72bb7173361fa65b607c89c72d57e9592f544aff.css' integrity = 'sha512-tIl0QNF77pEuvZPBkOsdNf3yUCHXTVWx9HW8&#43;riUFD87TCNUmMNtmtRfbMpyu3FzNh&#43;mW2B8icctV&#43;lZL1RK/w=='>
+</head>
+
+  <body>
+    <div class = 'nav-drop'>
+  <div class = 'nav-body'>
+      <a href = '/about/' class = 'nav_item'>About</a>
+      <a href = '/' class = 'nav_item'>Blog</a>
+      <a href = '/categories' class = 'nav_item'>Category</a>
+      <a href = '/tags' class = 'nav_item'>Tag</a>
+    <div class = 'nav-close'></div><div class = 'color_mode'>
+<label for = 'mode'>Toggle Dark Mode</label>
+<input type = 'checkbox' class = 'color_choice' id = 'mode'>
+</div>
+
+  </div>
+</div><header class = 'nav' >
+  <nav class = 'nav-menu'>
+    <a href='/' class = 'nav-brand nav_item'>Newsroom</a>
+    <div class = 'nav_bar-wrap'>
+      <div class = 'nav_bar'></div>
+    </div>
+  </nav>
+</header>
+
+
+    <main>
+      
+  <div class = 'wrap mt post'>
+    <div><p class = 'post_date pale'>23. July 2015</p>
+      <h1 class = 'post_title'>Hello R Markdown</h1>
+      <div class = 'post_body'>
+        <div class = 'post_inner'>
+        
+          
+
+
+<div id="r-markdown" class="section level1">
+<h1>R Markdown</h1>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932</code></pre>
+</div>
+<div id="including-plots" class="section level1">
+<h1>Including Plots</h1>
+<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<div class="figure"><span id="fig:pie"></span>
+<img src="/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">
+Figure 1: A fancy pie chart.
+</p>
+</div>
+</div>
+
+        </div>
+        <div class ='post_extra mb-2'>
+          <div class = 'copy'></div>
+
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href = '/' class = 'post_nav'><span class = 'post_next'>The Latest</span>T</a>
+
+    </main>
+    <footer class = 'footer wrap pale'>
+  <p>&copy;&nbsp;<span class = 'year'></span>&nbsp;Newsroom</p>
+  <p>Designed by  <a href = 'https://www.linkedin.com/in/dan-weru-profile/' target = '_blank' title = 'Linkedin Profile' rel = 'nonopener'>Weru</a></p>
+</footer>
+
+
+<script src = '/js/index.min.9983e6753137768ecae596265fcd403cd8b304149b85bd242f0c9fd0654d72d38b60e2eb7fcbca97acbe5450b597c9426a7a80c9e2c97498c90172f53e89625a.js'></script>
+
+  </body>
+</html>
