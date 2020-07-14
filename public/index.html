@@ -1,117 +1,167 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
   <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.74.0" />
-
-
-<title>A Hugo website</title>
-<meta property="og:title" content="A Hugo website">
-<meta property="og:type" content="website">
-
-
-  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
-
-
-
-<meta property="description" content="A website built through Hugo and blogdown.">
-
-
-
-
-
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="A Hugo website" />
-
-
-
-<link rel="stylesheet" href="/css/fonts.css" media="all">
-<link rel="stylesheet" href="/css/main.css" media="all">
-
-
-
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <nav class="nav">
-  <a href="/" class="nav-logo">
-    <img src="/images/logo.png"
-         width="50"
-         height="50"
-         alt="Logo">
-  </a>
-
-  <ul class="nav-links">
-    
-    <li><a href="/about/">About</a></li>
-    
-    <li><a href="https://github.com/rstudio/blogdown">GitHub</a></li>
-    
-    <li><a href="https://twitter.com/rstudio">Twitter</a></li>
-    
-  </ul>
-</nav>
-
-      </header>
-
-
-<main class="content" role="main">
+	<meta name="generator" content="Hugo 0.74.0" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
   
-  <div class="archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
     
+       &middot; 
     
+  </title>
+
+  
+  <link rel="stylesheet" href="/css/poole.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
     
-    
-    
-    <h2 class="archive-title">2016</h2>
-    
-    <article class="archive-item">
-      <a href="/2016/12/30/a-plain-markdown-post/" class="archive-item-link">A Plain Markdown Post</a>
-      <span class="archive-item-date">
-        2016-12-30
-      </span>
-    </article>
-    
-    
-    <h2 class="archive-title">2015</h2>
-    
-    <article class="archive-item">
-      <a href="/2015/07/23/hello-r-markdown/" class="archive-item-link">Hello R Markdown</a>
-      <span class="archive-item-date">
-        2015-07-23
-      </span>
-    </article>
-    
-    <article class="archive-item">
-      <a href="/2015/01/01/lorem-ipsum/" class="archive-item-link">Lorem Ipsum</a>
-      <span class="archive-item-date">
-        2015-01-01
-      </span>
-    </article>
-    
-    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>A website built through Hugo and blogdown.</p>
   </div>
 
-</main>
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item  active " href="/">Home</a>
+    <a class="sidebar-nav-item " href="/post">Posts</a><a class="sidebar-nav-item" href="/about/" title="">About</a><a class="sidebar-nav-item" href="https://github.com/rstudio/blogdown" title="">GitHub</a><a class="sidebar-nav-item" href="https://twitter.com/rstudio" title="">Twitter</a>
+    </nav>
 
-      <footer class="footer">
-        <ul class="footer-links">
-          <li>
-            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
-          </li>
-          <li>
-            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
-          </li>
-        </ul>
-      </footer>
+  <div class="sidebar-item">
+    <p>&copy; 2016. All rights reserved.</p>
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home"></a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+
+
+
+<div class="posts">
+  
+    <div class="post">
+        <h1 class="post-title"><a href="/2016/12/30/a-plain-markdown-post/">A Plain Markdown Post</a></h1>
+        <span class="post-date">Dec 30, 2016</span>
+        <p>This is a post written in plain Markdown (<code>*.md</code>) instead of R Markdown (<code>*.Rmd</code>). The major differences are:</p>
+<ol>
+<li>You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (<code>```{r}</code>);</li>
+<li>A plain Markdown post is rendered through <a href="https://gohugo.io/overview/configuration/">Blackfriday</a>, and an R Markdown document is compiled by <a href="http://rmarkdown.rstudio.com"><strong>rmarkdown</strong></a> and <a href="http://pandoc.org">Pandoc</a>.</li>
+</ol>
+<p>There are many differences in syntax between Blackfriday&rsquo;s Markdown and Pandoc&rsquo;s Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Write an R package.</li>
+<li><input disabled="" type="checkbox"> Write a book.</li>
+<li><input disabled="" type="checkbox"> &hellip;</li>
+<li><input disabled="" type="checkbox"> Profit!</li>
+</ul>
+<p>Similarly, Blackfriday does not support LaTeX math and Pandoc does. I have added the MathJax support to this theme (<a href="https://github.com/yihui/hugo-lithium">hugo-lithium</a>) but there is a caveat for plain Markdown posts: you have to include math expressions in a pair of backticks (inline: <code>`$ $`</code>; display style: <code>`$$ $$`</code>), e.g., <code>$S_n = \sum_{i=1}^n X_i$</code>.^[This is because we have to protect the math expressions from being interpreted as Markdown. You may not need the backticks if your math expression does not contain any special Markdown syntax such as underscores or asterisks, but it is always a safer choice to use backticks. When you happen to have a pair of literal dollar signs inside the same element, you can escape one dollar sign, e.g., <code>\$50 and $100</code> renders &ldquo;$50 and $100&rdquo;.] For R Markdown posts, you do not need the backticks, because Pandoc can identify and process math expressions.</p>
+<p>When creating a new post, you have to decide whether the post format is Markdown or R Markdown, and this can be done via the <code>ext</code> argument of the function <code>blogdown::new_post()</code>, e.g.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">new_post</span>(<span style="color:#e6db74">&#34;Post Title&#34;</span>, ext <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;.Rmd&#39;</span>)
+</code></pre></div>
+    </div>
+  
+    <div class="post">
+        <h1 class="post-title"><a href="/2015/07/23/hello-r-markdown/">Hello R Markdown</a></h1>
+        <span class="post-date">Jul 23, 2015</span>
+        
+
+
+<div id="r-markdown" class="section level1">
+<h1>R Markdown</h1>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932</code></pre>
+</div>
+<div id="including-plots" class="section level1">
+<h1>Including Plots</h1>
+<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<div class="figure"><span id="fig:pie"></span>
+<img src="/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">
+Figure 1: A fancy pie chart.
+</p>
+</div>
+</div>
 
     </div>
-    
+  
+    <div class="post">
+        <h1 class="post-title"><a href="/2015/01/01/lorem-ipsum/">Lorem Ipsum</a></h1>
+        <span class="post-date">Jan 1, 2015</span>
+        <p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <em>magna aliqua</em>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    
+    </div>
+  
+</div>
 
+<div class="pagination">
+  
+  <span class="pagination-item older">Older</span>
+  
+
+  
+  <span class="pagination-item newer">Newer</span>
+  
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
     
   </body>
 </html>
