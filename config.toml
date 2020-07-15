@@ -3,7 +3,7 @@
 theme = "hugo-theme-codex" 
 
 # Override these settings with your own
-title = "codex"
+title = "Tim Thoughts"
 languageCode = "en-us"
 baseURL = "https://timthoughts.org/"
 copyright = "© {year}"
