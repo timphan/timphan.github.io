@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Tue, 14 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Testing</title>
-      <link>/blog/testing/</link>
-      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+      <title>First Post</title>
+      <link>/blog/first_post/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/testing/</guid>
-      <description>Hi is it working?</description>
+      <guid>/blog/first_post/</guid>
+      <description>I&amp;rsquo;m building a new site to play around with showing off some data visualizations and tools I&amp;rsquo;m building in R. Stay tuned :)</description>
     </item>
     
     <item>
