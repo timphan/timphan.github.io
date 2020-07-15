@@ -22,7 +22,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   dateFormat = "Jan 2 2006"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
-  twitter = "https://twitter.com/timothy_phan>"
+  twitter = "https://twitter.com/timothy_phan"
   #github = "https://github.com/timphan"
   email = "mailto:<phan.timothyv@gmail.com>"
   # facebook = "https://facebook.com/<your handle>"
