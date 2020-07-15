@@ -1,5 +1,5 @@
 ---
-handle: hugo-theme-codex
-heading: Hi, I'm Codex
-subheading: A minimal blog theme for hugo.
+handle: timothy_phan
+heading: Hi, I'm Tim
+subheading: activist, analyst, politics.
 ---
