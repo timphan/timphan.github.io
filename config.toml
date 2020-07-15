@@ -1,12 +1,11 @@
-# REMOVE THIS
 
 # DO NOT REMOVE THIS
-theme = "hugo-theme-codex"
+theme = "hugo-theme-codex" 
 
 # Override these settings with your own
 title = "codex"
 languageCode = "en-us"
-baseURL = "https://example.org/"
+baseURL = "https://timthoughts.org/"
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
@@ -60,6 +59,5 @@ copyright = "© {year}"
   name = "blog"
   title = "Blog"
   url = "/blog"
-
 
 
