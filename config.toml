@@ -7,6 +7,7 @@ title = "codex"
 languageCode = "en-us"
 baseURL = "https://timthoughts.org/"
 copyright = "© {year}"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Add your Disqus shortname here.
 # disqusShortname = ""
@@ -21,9 +22,9 @@ copyright = "© {year}"
   dateFormat = "Jan 2 2006"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
-  twitter = "https://twitter.com/<your handle>"
-  github = "https://github.com/<your handle>"
-  # email = "mailto:<your email>"
+  twitter = "https://twitter.com/timothyphan>"
+  github = "https://github.com/timphan"
+  # email = "mailto:<phan.timothyv@gmail.com>"
   # facebook = "https://facebook.com/<your handle>"
   # gitlab = "https://gitlab.com/<your handle>"
   # instagram = "https://instagram.com/<your handle>"
