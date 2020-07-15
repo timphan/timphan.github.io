@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://timthoughts.com/"
 languageCode = "en-us"
 title = "A Hugo website"
 theme = "lanyon-hugo"
