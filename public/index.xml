@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {2020}</copyright>
-    <lastBuildDate>Wed, 15 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Back to Florida</title>
+      <link>/blog/back-to-florida/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/back-to-florida/</guid>
+      <description>Practicing my Leaflet and data cleaning skills!
+This is a very basic ethnicity breakdown of Census-tract level data of Florida using the 2014-2018 ACS datasets, focusing on CVAP (citizen voting age population) data.
+I&amp;rsquo;ve layered on a dot-density map of renters and internet accessibility.
+Will be adding some 2016/2018 electoral results soon.
+ </description>
+    </item>
     
     <item>
       <title></title>
