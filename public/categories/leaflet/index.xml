@@ -19,10 +19,10 @@
       
       <guid>/blog/back-to-florida/</guid>
       <description>Practicing my Leaflet and data cleaning skills!
-This is a very basic ethnicity breakdown of Census-tract level data of Florida using the 2014-2018 ACS datasets, focusing on CVAP (citizen voting age population) data.
+This is a ethnicity breakdown of Census-tract level data of Florida using the 2014-2018 ACS datasets, focusing on CVAP (citizen voting age population) data.
 I&amp;rsquo;ve layered on a dot-density map of renters and internet accessibility.
-Will be adding some 2016/2018 electoral results soon.
- </description>
+I&amp;rsquo;ve added 2016 and 2018 election results (using Clinton and Gillum&amp;rsquo;s percentages as a rough benchmark for Democratic Party&amp;rsquo;s &amp;ldquo;blue&amp;rdquo;)
+Future iterations of this map will consolidate and cleanup the missing NA&amp;rsquo;s, I got a suspicion we got some consolidated precincts to clean up.</description>
     </item>
     
   </channel>
