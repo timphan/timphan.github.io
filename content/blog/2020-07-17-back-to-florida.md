@@ -26,5 +26,5 @@ Future iterations of this map will consolidate and cleanup the missing NA's, I g
 
 I'm still re-learning Shiny, would ideally like to make a dashboard from all this to be a bit more visually aesthetic.
 
-<iframe src='/img/final_map.html' width="150%" height="750"></iframe>
+<iframe src='/img/final.html' width="150%" height="750"></iframe>
 
