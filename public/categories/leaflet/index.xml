@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {2020}</copyright>
-    <lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/leaflet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>shiny test</title>
+      <link>/blog/shiny-test/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/shiny-test/</guid>
+      <description> </description>
+    </item>
     
     <item>
       <title>Back to Florida</title>
