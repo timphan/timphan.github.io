@@ -113,6 +113,21 @@
   </url>
   
   <url>
+    <loc>/blog/shiny-test/</loc>
+    <lastmod>2016-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/poetry/</loc>
+    <lastmod>2015-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/fiction/</loc>
+    <lastmod>2015-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/poetry/</loc>
     <lastmod>2015-08-11T00:00:00+00:00</lastmod>
   </url>
