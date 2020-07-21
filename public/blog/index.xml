@@ -46,30 +46,11 @@ Stay tuned :)</description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>/blog/markdown-syntax-guide/</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>/blog/rich-text/</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/rich-text/</guid>
-      <description>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
-Instagram Simple Shortcode .__h_instagram.card { font-family: -apple-system,BlinkMacSystemFont,&#34;Segoe UI&#34;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&#34;Helvetica Neue&#34;,sans-serif; font-size: 14px; border: 1px solid rgb(219, 219, 219); padding: 0; margin-top: 30px; } .__h_instagram.card .card-header, .__h_instagram.card .card-body { padding: 10px 10px 10px; } .__h_instagram.card img { width: 100%; height: auto; }  koloot.</description>
-    </item>
-    
-    <item>
       <title>life update</title>
-      <link>/blog/shiny-test/</link>
+      <link>/blog/2016-08-13-life_update/</link>
       <pubDate>Sat, 13 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>/blog/shiny-test/</guid>
+      <guid>/blog/2016-08-13-life_update/</guid>
       <description>So much for writing about the election this year. I just moved to Tampa to join Hillary Clinton and the Florida Democrats, I&amp;rsquo;ll be working on the data and analytics team for the duration of the election. Volunteering as a fellow during the California primary for HRC will always be a highlight of my life, and I&amp;rsquo;m really thankful for all the great people I met.
 But now the hardest part comes next.</description>
     </item>

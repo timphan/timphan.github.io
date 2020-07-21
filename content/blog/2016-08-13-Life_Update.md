@@ -2,7 +2,6 @@
 title: life update
 author: ''
 date: '2016-08-13'
-slug: shiny-test
 categories: [personal]
 tags: []
 description: ''
