@@ -7,7 +7,7 @@ var config = {
     title: 'Boba Shops of Little Saigon',
     subtitle: 'places where DJ Equalitea hangs out',
     byline: '',
-    footer: 'Source: me <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
+    footer: 'Source: me',
     chapters: [
         {
             id: 'SunrightStudio',
