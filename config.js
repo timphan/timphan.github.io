@@ -2,21 +2,21 @@ var config = {
     style: 'mapbox://styles/branigan/cjz37rcb003ib1cr3s8rnkt2d',
     accessToken: 'pk.eyJ1IjoidGltcGhhbiIsImEiOiJja2RhcTdubjYwNnNlMnB0ODNyd3l2eGsxIn0.CMqEhL4yhZW4n2EPy7NUHg',
     showMarkers: false,
-    theme: 'dark',
+    theme: 'light',
     use3dTerrain: true,
-    title: 'Glaciers of Glacier National Park',
-    subtitle: 'Change in coverage from 1998 to 2015',
+    title: 'Boba Shops of Little Saigon',
+    subtitle: 'places where DJ Equalitea hangs out',
     byline: '',
     footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
     chapters: [
         {
-            id: 'glacier-np',
+            id: 'SunrightStudio',
             alignment: 'full',
-            title: 'Glacier National Park Glaciers',
+            title: 'Sunright Studio',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2015-06-19_Glacier_National_Park_%28U.S.%29_8633.jpg/800px-2015-06-19_Glacier_National_Park_%28U.S.%29_8633.jpg',
-            description: 'Glacier National Park is dominated by mountains which were carved into their present shapes by the huge glaciers of the last ice age...',
+            description: 'White Peach Oolong Tea FTW',
             location: {
-                center: [-113.91666, 48.66451],
+                center: [33.76136749155332, -117.95329800336799],
                 zoom: 8,
                 pitch: 0.00,
                 bearing: 0.00
@@ -38,25 +38,6 @@ var config = {
                 }
             ]
         },
-        {
-            id: 'harrison1998',
-            alignment: 'left',
-            title: 'Harrison Glacier, 1998',
-            image: '',
-            description: 'Harrison Glacier is located in the US state of Montana in Glacier National Park. Situated on a southeast facing ridge immediately south of Mount Jackson, Harrison Glacier is the largest glacier in Glacier National Park...',
-            location: {
-                center: [-113.72917, 48.58938],
-                zoom: 12.92,
-                pitch: 39.50,
-                bearing: 36.00
-            },
-            onChapterEnter: [],
-            onChapterExit: [
-                // {
-                //     layer: 'gnpglaciers-2015',
-                //     opacity: 0
-                // }
-            ]
-        }
+        
     ]
 }
