@@ -16,9 +16,9 @@ var config = {
             image: 'https://s3-media0.fl.yelpcdn.com/bphoto/4dvmES4Pb1oC-YpH_f4N5g/348s.jpg',
             description: 'White Peach Oolong Tea FTW',
             location: {
-                center: [33.76136749155332, -117.95329800336799],
-                zoom: 8,
-                pitch: 0.00,
+                center: [-117.95323, 33.76157],
+                zoom: 18.75,
+                pitch: 45.00,
                 bearing: 0.00
             },
             onChapterEnter: [
