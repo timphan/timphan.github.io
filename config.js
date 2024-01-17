@@ -7,13 +7,13 @@ var config = {
     title: 'Boba Shops of Little Saigon',
     subtitle: 'places where DJ Equalitea hangs out',
     byline: '',
-    footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
+    footer: 'Source: me <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
     chapters: [
         {
             id: 'SunrightStudio',
             alignment: 'full',
             title: 'Sunright Studio',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2015-06-19_Glacier_National_Park_%28U.S.%29_8633.jpg/800px-2015-06-19_Glacier_National_Park_%28U.S.%29_8633.jpg',
+            image: 'https://s3-media0.fl.yelpcdn.com/bphoto/4dvmES4Pb1oC-YpH_f4N5g/348s.jpg',
             description: 'White Peach Oolong Tea FTW',
             location: {
                 center: [33.76136749155332, -117.95329800336799],
