@@ -9,12 +9,12 @@ var config = {
     byline: '',
     footer: 'Source: me',
     chapters: [
-               {
+        {
             id: 'Summerfield',
             alignment: 'center',
             title: 'Summerfield Tea Bar (Garden Grove)',
             image: 'https://s3-media0.fl.yelpcdn.com/bphoto/u38rV4PRzkGqkrRZWSkFeA/o.jpg',
-            description: 'The Strawberry Tornado one is my favorite',
+            description: 'The Strawberry Tornado one is my favorite!',
             location: {
                 center: [-117.94085, 33.78169],
                 zoom: 18.17,
@@ -45,11 +45,6 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-
-
-
-
-
 
 
         {
