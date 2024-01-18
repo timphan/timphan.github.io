@@ -21,22 +21,27 @@ var config = {
                 pitch: 45.00,
                 bearing: 0.00
             },
-            onChapterEnter: [
-                {
-                    layer: 'gnpglaciers-1998',
-                    opacity: 0.25
-                },
-                {
-                    layer: 'glaciernp-boundary',
-                    opacity: 0.25
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'glaciernp-boundary',
-                    opacity: 0
-                }
-            ]
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+
+        {
+            id: 'UrbanLocation',
+            alignment: 'full',
+            title: 'Urban Location',
+            image: 'https://static.wixstatic.com/media/9d106b_f1e6e2ef5e42440eb2d1c7b7d60fa424~mv2_d_4686_3124_s_4_2.jpg/v1/fill/w_640,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/9d106b_f1e6e2ef5e42440eb2d1c7b7d60fa424~mv2_d_4686_3124_s_4_2.jpg',
+            description: 'Good chicken wings and fries',
+            location: {
+                center: [-117.93948, 33.75952],
+                zoom: 17.76,
+                pitch: 45.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [],
+            onChapterExit: []
         },
         
     ]
